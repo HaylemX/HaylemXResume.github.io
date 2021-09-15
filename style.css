@@ -40,6 +40,18 @@ h1, h2, h3 {
   
 }
 
+h1 {
+   color:white;
+  font-size:50px;
+  background-color: #44444444;
+  font-weight: 1000px;
+  padding: 150px;
+  position: relative;
+  bottom: 35px;
+  line-height: 100px;
+  
+}
+
 h3 {
   color:white;
   font-size:50px;
@@ -87,12 +99,7 @@ p {
 .container div {
   box-sizing: border-box;
    
-}
 
-.right-col {
-  color:orange;
-  width: 33%;
-  float: left;
 }
 
 .left-col {
@@ -131,6 +138,22 @@ p {
   background-position: -680px;
 }
 
+.right-col {
+  color:white;
+  width: 33%;
+  height:500px;
+  float: left;
+  background-image: url("https://cdn.tutsplus.com/cdn-cgi/image/width=600/vector/uploads/2013/10/whycantyoudraw_2-2_stickmen.png");
+  border-radius:100px;
+  padding: 1px;
+  background-position: 70px;
+  text-align:center;
+
+}
+
+.right-col:hover{
+  background-position:-100px;
+}
 .link{
   padding: 50px;
  
