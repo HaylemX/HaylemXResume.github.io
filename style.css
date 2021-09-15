@@ -2,6 +2,11 @@ body {
   background-image: url("https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGphcGFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
   background-attachment: fixed;
   background-position: center;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
  a:link {
@@ -44,11 +49,11 @@ h1 {
   font-size:50px;
   background-color: #44444444;
   font-weight: 1000px;
-  padding: 165px;
+  padding: 150px;
   position: relative;
   bottom: 35px;
-  line-height: 100px;
-  
+  line-height: 200px;
+
 }
 
 h3 {
@@ -60,6 +65,7 @@ h3 {
   position: relative;
   bottom: 51px;
   line-height: 100px;
+  
 
 }
 
@@ -72,6 +78,7 @@ h2 {
   position: relative;
   bottom: 51px;
   line-height: 100px;
+ 
   
 }
 
