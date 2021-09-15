@@ -1,0 +1,74 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1509023464722-18d996393ca8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMGphcGFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.title {
+  color:white;
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 100px;
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  color: red;
+}
+
+.header {
+  height:55px;
+  text-align: center;
+  color: skyblue;
+  padding: 1px;
+  font-size:40px;
+  background-image: url("https://1ycbx02rgnsa1i87hd1i7v1r-wpengine.netdna-ssl.com/wp-content/uploads/2014/08/black-forest-wallpaper-10-1024x640.jpg");
+  border-radius:100px;
+  
+}
+
+.container div {
+  padding: 1%;
+  box-sizing: border-box;
+  min-height: 500px; 
+}
+
+.right-col {
+  color:orange;
+  width: 25%;
+  float: left;
+}
+
+.left-col {
+  color:white;
+  width: 25%;
+  float: left;
+  background-image: url("https://static.seattletimes.com/wp-content/uploads/2019/09/web-t-work-coffee-shop_GettyImages-520581198-780x501.jpg");
+  border-radius:100px;
+}
+
+.left-col:active, .left-col:hover {
+ background-position: -2000px;
+}
+
+.center-col {
+  color:orange;
+  width: 50%;
+  float: left;
+}
+
+
